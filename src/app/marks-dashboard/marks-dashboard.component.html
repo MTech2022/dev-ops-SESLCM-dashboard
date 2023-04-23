@@ -1,0 +1,28 @@
+<div class="container">
+  <div class="row mt-4">
+    <table class="table table-striped table-hover">
+      <thead>
+      <tr class="table-title">
+        <th>RollNo</th>
+        <th>Name</th>
+        <th>Subject 1</th>
+        <th>Subject 2</th>
+        <th>Subject 3</th>
+        <th>Subject 4</th>
+        <th>Subject 5</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let marks of [1,2,3,4,5,6,7]">
+        <td>{{marks}}</td>
+        <td>Sandeep M</td>
+        <td>90</td>
+        <td>90</td>
+        <td>90</td>
+        <td>90</td>
+        <td>90</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
